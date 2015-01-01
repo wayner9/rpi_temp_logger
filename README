@@ -5,6 +5,7 @@ Remove extraneous code left by Pyplate
 Change date to localtime rather than UTC and change date formatting from "YYYY-MM-DD HH:MM:SS" to "MM-DD HH:MM".
 Change Y Axis scale to have a minimum of 10 and a maximum of 20, unless overridden.
 Change folder for templog.db file from /var/www to /var/www/thermo to facilitate www-data permissions on cron job.
+Fixed type of "new" to "now" for last hour data.
 
 
 This repo contains code for a Raspberry Pi temperature logger which uses SQLite to store data read from a DS18B20 sensor.  You can see more details here:
